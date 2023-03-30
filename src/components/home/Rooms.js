@@ -30,7 +30,7 @@ const RoomsCenter = styled.div`
   
   `};
 
-  ${media.desktop`
+  ${media.large`
      width: 100vw;
      max-width: 1170px;  
   `};
