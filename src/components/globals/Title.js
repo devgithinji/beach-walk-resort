@@ -16,5 +16,5 @@ export default styled(Title)`
   text-transform: capitalize;
   ${setLetterSpacing(5)};
   ${setFonts.slanted};
-  text-align: center;
+  text-align: ${props => props.center ? 'center' : ''};
 `;
