@@ -7,7 +7,7 @@ import Title from "../globals/Title";
 import styled from "styled-components";
 
 const Rooms = () => {
-    const [roomsList, _] = useState(rooms)
+    const [roomsList, setRooms] = useState(rooms)
 
 
     return (
